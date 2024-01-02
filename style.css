@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #93A8AC;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    /* border: 2px solid blue; */
+    height: 70vh;
+    /* width: 100vw;  if h1 inside game then h1 will adjust its width according to the game container width and game container will adjust accroding to the container width*/ 
+    /*it will automatically adjust the height according to the game content because its(parent) display is flex, so it will not take whole width of the webpage*/
+}
+
+.game{
+    height: 60vmin;    /* if you dont give a height then its height will dynamically adjust accordding to content on it*/
+    width: 60vmin;     /*width limit kelyavar boxes next line vr yeun automatically adjunst houn height pn adjust hote*/
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap; /*jaga nasel tr khali ya*/
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 7vmin;
+    background-color: #ffffc7;
+    color: black;
+}
+h1{
+    text-align: center;
+    /* border: 2px solid black; */
+    margin-bottom: 30px;
+  
+}
+
+main{
+    text-align: center;
+}
+
+#reset{
+    margin-top: 30px;
+    width: 16vmin;
+    height: 5vmin;
+    border-radius: 7vmin;
+    border: none;
+    font-size: 2vmin;
+    background-color: black;
+    color: white;
+
+}
+.message-container{
+    /* border: 2px solid black; */margin-bottom: 20px;
+    /* display: none; */
+}
+
+#msg{
+    color:rgb(21, 255, 0);
+    font-size: 5vmin;
+    margin-top:10px;
+}
+
+
+
+#new_game{
+    width: 16vmin;
+    height: 5vmin;
+    border-radius: 7vmin;
+    border: none;
+    font-size: 2vmin;
+    background-color: black;
+    color: white;
+
+
+}
+
+.hide{
+    display: none;
+}
